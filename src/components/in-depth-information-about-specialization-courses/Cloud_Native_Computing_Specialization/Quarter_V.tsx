@@ -1,10 +1,10 @@
-import { Text, Heading } from "@chakra-ui/react";
-import Link from "next/link";
+import { Text, Heading } from '@chakra-ui/react';
+import Link from 'next/link';
 
 const CNCCS_Quarter_V = () => {
   return (
     <>
-     <Heading id="quarter-v-cn-361-developing-multi-cloud-apps-using-cdk-for-terraform" as='h2' fontSize='1.5em' mt='1rem' mb='1rem' fontWeight='normal' color='#159957'>
+     <Heading id='quarter-v-cn-361-developing-multi-cloud-apps-using-cdk-for-terraform' as='h2' fontSize='1.5em' mt='1rem' mb='1rem' fontWeight='normal' color='#159957'>
        Quarter V CN-361: Developing Multi-Cloud Apps using CDK for Terraform
      </Heading>  
 
@@ -28,7 +28,7 @@ const CNCCS_Quarter_V = () => {
       <Text as='p' mt='0.8em' color='#606C71'> Course Outline: </Text>
 
       <Text as='p' mt='0.8em' color='#606C71'> CDK for Terraform </Text>
-      <Text as='p' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+      <Text as='p' color='#1e6bb8' bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
         <Link href='https://developer.hashicorp.com/terraform/cdktf'  target='_blank'>  https://developer.hashicorp.com/terraform/cdktf  </Link>
       </Text> 
     </>

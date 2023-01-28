@@ -36,7 +36,7 @@ const Curriculum = () => {
      </Heading>
      <Text as='p' mt='1em' mb='1em' color='#606C71'>
         In this brand-new type of curriculum, students will learn how to make money and
-        boost exports in the classroom and will begin doing so within six months of the program’s
+        boost exports in the classroom and will begin doing so within six months of the program&apos;s
         beginning. It resembles a cross between a corporate venture and an educational project.
      </Text> 
 

@@ -45,7 +45,7 @@ const Quarter_IV = () => {
         well as equip you to take part in the creation of cutting-edge AI
         technology. We will start this course by understanding the fundamentals
         and use cases for AI and move on to building next-gen intelligent apps
-        using OpenAI’s powerful models and Next.js 13.
+        using OpenAI's powerful models and Next.js 13.
       </Text>
 
       <Text as="p" mt="0.8em" color="#606C71">
@@ -96,7 +96,7 @@ const Quarter_IV = () => {
        </Text>
        
         <Text as="p" mt="0.5em" color="#606C71">
-            Building Next-Gen Intelligent Apps with OpenAI’s Powerful Models
+            Building Next-Gen Intelligent Apps with OpenAI's Powerful Models
         </Text>
 
         <Text as="p" mt="0.4em" color="#606C71">

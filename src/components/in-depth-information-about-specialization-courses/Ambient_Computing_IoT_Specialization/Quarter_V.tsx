@@ -1,11 +1,11 @@
-import { Text, Heading, List, ListItem } from "@chakra-ui/react";
-import Link from "next/link";
+import { Text, Heading, List, ListItem } from '@chakra-ui/react';
+import Link from 'next/link';
 import styles from '../../../styles/Home.module.css';
 
 const Quarter_V_IoT = () => {
   return (
     <>
-     <Heading id="quarter-v-ac-361-embedded-programming-using-c-and-rust" as='h2' fontSize='1.5em' mt='1rem' mb='1rem' fontWeight='normal' color='#159957'>
+     <Heading id='quarter-v-ac-361-embedded-programming-using-c-and-rust' as='h2' fontSize='1.5em' mt='1rem' mb='1rem' fontWeight='normal' color='#159957'>
        AC-361: Embedded Programming using C and Rust
      </Heading>  
 
@@ -25,7 +25,7 @@ const Quarter_V_IoT = () => {
      </Text>
 
      <Text as='p' mt='0.8em' color='#606C71'> Introduction to the Internet of Things and Embedded Systems (Weeks 1 and 2) </Text>
-     <Text as='p' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+     <Text as='p' color='#1e6bb8' bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
        <Link href='https://docs.google.com/presentation/d/14OcW4HfS2i1Db1uKOU6SrckFEFjhSLMgfnHYB3XlEZo/edit?usp=sharing' target='_blank'>
         https://docs.google.com/presentation/d/14OcW4HfS2i1Db1uKOU6SrckFEFjhSLMgfnHYB3XlEZo/edit?usp=sharing
        </Link>
@@ -47,7 +47,7 @@ const Quarter_V_IoT = () => {
      <Text as='p' mt='0.7em' color='#606C71'> The C Reference Book: The C programming language Embedded Programming book: Internet of things with ESP8266 </Text>
 
      <Text as='p' mt='0.3em' color='#606C71'> Download Link: </Text>
-     <Text as='p' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+     <Text as='p' color='#1e6bb8' bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
        <Link href='https://drive.google.com/drive/folders/1CZFxLSFoo9rl3le7KRuhUwLEV6h4xLXN?usp=sharing' target='_blank'>
         https://drive.google.com/drive/folders/1CZFxLSFoo9rl3le7KRuhUwLEV6h4xLXN?usp=sharing
        </Link>
@@ -57,7 +57,7 @@ const Quarter_V_IoT = () => {
      <Text as='p' mt='0.5em' color='#606C71' fontWeight='bold'> C environment Setup for (Windows, Linux, and Mac OS systems) </Text>
      <Text as='p' mt='0.5em' fontWeight='semibold' color='#606C71'> Chapters 1-2 of  “The C programming language”  </Text>
       
-     <List as='ul' styleType="disc" className={styles.list}>
+     <List as='ul' styleType='disc' className={styles.list}>
       <ListItem> 
         <Text as='p' mt='0.4em' color='#606C71' fontWeight='semibold'> Variable names types  </Text>
       </ListItem>
@@ -90,7 +90,7 @@ const Quarter_V_IoT = () => {
      <Text as='p' mt='0.7em' mb='0.7em' color='#606C71'fontWeight='semibold'> Topics 3 and 4  of  “The C programming language” </Text> 
      
      
-     <List as='ul' styleType="disc" className={styles.list}>
+     <List as='ul' styleType='disc' className={styles.list}>
       <ListItem> 
         <Text as='p' mt='0.4em' color='#606C71' fontWeight='semibold'> Control flow statements (else if, loops, switch, break continue)  </Text>
       </ListItem>
@@ -107,7 +107,7 @@ const Quarter_V_IoT = () => {
      <Text as='p' mt='0.7em' color='#606C71' fontWeight='semibold'> Basic Electronics and Introduction to microcontrollers <br /> Chapter 1 of  “Internet of things with ESP8266”  </Text>
 
     
-      <List as='ul' styleType="disc" className={styles.list}>
+      <List as='ul' styleType='disc' className={styles.list}>
         <ListItem> 
           <Text as='p' mt='0.5em' color='#606C71' fontWeight='semibold'> Arduino IDE installation and env setup for ESP8266 </Text>
         </ListItem>
@@ -128,20 +128,20 @@ const Quarter_V_IoT = () => {
      <Text as='p' mt='0.6em' color='#606C71' fontWeight='semibold'> Chapters 2-5 of  “Internet of things with ESP8266”  </Text>
      
      
-      <List as='ul' styleType="disc" className={styles.list}>
+      <List as='ul' styleType='disc' className={styles.list}>
         <ListItem> 
           <Text as='p' mt='0.4em' color='#606C71' fontWeight='semibold'> 
            Connecting your hardware to wifi. <br />
-            <Text as='span' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
-             <Link href="https://randomnerdtutorials.com/wifimanager-with-esp8266-autoconnect-custom-parameter-and-manage-your-ssid-and-password/" target='_blank'> https://randomnerdtutorials.com/wifimanager-with-esp8266-autoconnect-custom-parameter-and-manage-your-ssid-and-password/   </Link>          
+            <Text as='span' color='#1e6bb8' bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+             <Link href='https://randomnerdtutorials.com/wifimanager-with-esp8266-autoconnect-custom-parameter-and-manage-your-ssid-and-password/' target='_blank'> https://randomnerdtutorials.com/wifimanager-with-esp8266-autoconnect-custom-parameter-and-manage-your-ssid-and-password/   </Link>          
             </Text> 
           </Text>
         </ListItem>
         <ListItem> 
           <Text as='p' mt='0.6em' mb='0.4em' color='#606C71' fontWeight='semibold'>
             Reading data from GPIOs. <br />
-            <Text as='span' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
-             <Link href="https://randomnerdtutorials.com/esp8266-nodemcu-digital-inputs-outputs-arduino/#:~:text=ESP8266%20NodeMCU%20Read%20Digital%20Inputs,number)" target='_blank'> https://randomnerdtutorials.com/esp8266-nodemcu-digital-inputs-outputs-arduino/#:~:text=ESP8266%20NodeMCU%20Read%20Digital%20Inputs,number)   </Link>          
+            <Text as='span' color='#1e6bb8' bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+             <Link href='https://randomnerdtutorials.com/esp8266-nodemcu-digital-inputs-outputs-arduino/#:~:text=ESP8266%20NodeMCU%20Read%20Digital%20Inputs,number)' target='_blank'> https://randomnerdtutorials.com/esp8266-nodemcu-digital-inputs-outputs-arduino/#:~:text=ESP8266%20NodeMCU%20Read%20Digital%20Inputs,number)   </Link>          
             </Text> 
           </Text>
         </ListItem>
@@ -149,8 +149,8 @@ const Quarter_V_IoT = () => {
         <ListItem>
           <Text as='p' mt='0.6em' color='#606C71' fontWeight='semibold'> 
             Reading data from digital sensors <br />
-            <Text as='span' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
-             <Link href="https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-sensor-arduino-ide/" target='_blank'> https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-sensor-arduino-ide/  </Link>          
+            <Text as='span' color='#1e6bb8' bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+             <Link href='https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-sensor-arduino-ide/' target='_blank'> https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-sensor-arduino-ide/  </Link>          
             </Text> 
           </Text>
         </ListItem>
@@ -159,29 +159,29 @@ const Quarter_V_IoT = () => {
             Cloud data logging
           </Text>         
 
-          <Text as='p' mt='0.2em' mb='0.2em' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
-             <Link href="https://tttapa.github.io/ESP8266/Chap16%20-%20Data%20Logging.html" target='_blank'> https://tttapa.github.io/ESP8266/Chap16%20-%20Data%20Logging.html </Link>          
+          <Text as='p' mt='0.2em' mb='0.2em' color='#1e6bb8' bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+             <Link href='https://tttapa.github.io/ESP8266/Chap16%20-%20Data%20Logging.html' target='_blank'> https://tttapa.github.io/ESP8266/Chap16%20-%20Data%20Logging.html </Link>          
           </Text> 
 
-          <Text as='p' mt='0.3em' mb='0.3em' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
-             <Link href="https://circuitdigest.com/microcontroller-projects/nodemcu-datalogger-to-save-temperature-and-pressure-data-on-thinger-io-cloud-platform" target='_blank'> https://circuitdigest.com/microcontroller-projects/nodemcu-datalogger-to-save-temperature-and-pressure-data-on-thinger-io-cloud-platform </Link>          
+          <Text as='p' mt='0.3em' mb='0.3em' color='#1e6bb8' bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+             <Link href='https://circuitdigest.com/microcontroller-projects/nodemcu-datalogger-to-save-temperature-and-pressure-data-on-thinger-io-cloud-platform' target='_blank'> https://circuitdigest.com/microcontroller-projects/nodemcu-datalogger-to-save-temperature-and-pressure-data-on-thinger-io-cloud-platform </Link>          
           </Text>   
 
-          <Text as='p' mt='0.3em' mb='0.3em' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
-             <Link href="https://iotdesignpro.com/projects/nodemcu-data-logger-to-upload-data-on-webserver" target='_blank'> https://iotdesignpro.com/projects/nodemcu-data-logger-to-upload-data-on-webserver </Link>          
+          <Text as='p' mt='0.3em' mb='0.3em' color='#1e6bb8' bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+             <Link href='https://iotdesignpro.com/projects/nodemcu-data-logger-to-upload-data-on-webserver' target='_blank'> https://iotdesignpro.com/projects/nodemcu-data-logger-to-upload-data-on-webserver </Link>          
           </Text>
         </ListItem>        
         <ListItem>
           <Text as='p' mt='0.5em' color='#606C71' fontWeight='semibold'> Displaying data on the cloud </Text>
-          <Text as='p' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
-             <Link href="https://github.com/adesolasamuel/NodeMCU-DHT-Data-to-Arduino-IoT-Cloud" target='_blank'> https://github.com/adesolasamuel/NodeMCU-DHT-Data-to-Arduino-IoT-Cloud </Link>          
+          <Text as='p' color='#1e6bb8' bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+             <Link href='https://github.com/adesolasamuel/NodeMCU-DHT-Data-to-Arduino-IoT-Cloud' target='_blank'> https://github.com/adesolasamuel/NodeMCU-DHT-Data-to-Arduino-IoT-Cloud </Link>          
           </Text>
         </ListItem>        
 
         <ListItem>
           <Text as='p' mt='0.5em' color='#606C71' fontWeight='semibold'> Controlling controller remotely </Text>
-          <Text as='p' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
-             <Link href="https://www.instructables.com/Control-ESP8266-Over-the-Internet-from-Anywhere/" target='_blank'> https://www.instructables.com/Control-ESP8266-Over-the-Internet-from-Anywhere/ </Link>          
+          <Text as='p' color='#1e6bb8' bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+             <Link href='https://www.instructables.com/Control-ESP8266-Over-the-Internet-from-Anywhere/' target='_blank'> https://www.instructables.com/Control-ESP8266-Over-the-Internet-from-Anywhere/ </Link>          
           </Text>
         </ListItem>
         
@@ -191,19 +191,19 @@ const Quarter_V_IoT = () => {
         <ListItem>
           <Text as='p' mt='0.5em' color='#606C71' fontWeight='semibold'> Embedded Programming using Rust (Extra Weeks in the Course) </Text> 
          
-          <Text as='p' mt='0.2em' mb='0.2em' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
-             <Link href="https://www.rust-lang.org/what/embedded" target='_blank'> https://www.rust-lang.org/what/embedded  </Link>          
+          <Text as='p' mt='0.2em' mb='0.2em' color='#1e6bb8' bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+             <Link href='https://www.rust-lang.org/what/embedded' target='_blank'> https://www.rust-lang.org/what/embedded  </Link>          
           </Text>
 
-          <Text as='p' mt='0.2em' mb='0.2em' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
-             <Link href="https://crates.io/crates/esp8266" target='_blank'> https://crates.io/crates/esp8266  </Link>          
+          <Text as='p' mt='0.2em' mb='0.2em' color='#1e6bb8' bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+             <Link href='https://crates.io/crates/esp8266' target='_blank'> https://crates.io/crates/esp8266  </Link>          
           </Text>
         </ListItem>       
       </List> 
        
       <Text as='p' mt='0.8em' color='#606C71' fontWeight='semibold'> Hardware Requirements: </Text>    
            
-      <List as='ol' styleType="decimal" className={styles.list} mt='0.4em'>
+      <List as='ol' styleType='decimal' className={styles.list} mt='0.4em'>
         <ListItem>
           <Text as='p' mt='0.4em' color='#606C71' fontWeight='semibold'> Esp8266 (Node MCU) </Text> 
         </ListItem>

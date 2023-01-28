@@ -38,7 +38,7 @@ const Outcome = () => {
           href="https://content.techgig.com/hiring/top-5-metaverse-jobs-that-will-rule-the-future-of-tech-industry/articleshow/87581325.cms"
           target="_blank"
         >
-          Top 5 ‘Metaverse’ jobs that will rule the future of tech industry
+          Top 5 &quot;Metaverse&quot; jobs that will rule the future of tech industry
         </Link>
       </Text>
 
@@ -86,7 +86,7 @@ const Outcome = () => {
           href="https://newzoo.com/insights/trend-reports/newzoo-report-on-metaverse-blockchain-gaming-nft-2022"
           target="_blank"
         >
-          The Metaverse, Blockchain Gaming, and NFTs: Navigating the Internet’s
+          The Metaverse, Blockchain Gaming, and NFTs: Navigating the Internet&apos;s
           Uncharted Waters
         </Link>
       </Text>

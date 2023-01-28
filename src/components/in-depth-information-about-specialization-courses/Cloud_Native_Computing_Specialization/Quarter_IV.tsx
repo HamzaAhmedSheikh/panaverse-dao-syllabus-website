@@ -1,13 +1,13 @@
-import { Text, Heading } from "@chakra-ui/react";
-import Link from "next/link";
+import { Text, Heading } from '@chakra-ui/react';
+import Link from 'next/link';
 
 const CNCCS_Quarter_IV = () => {
   return (
     <>
-      <Heading id="quarter-iv-cloud-native-computing-specialization" as='h2' fontSize='1.5em' mt='1rem' mb='1rem' fontWeight='normal' color='#159957'>
+      <Heading id='quarter-iv-cloud-native-computing-specialization' as='h2' fontSize='1.5em' mt='1rem' mb='1rem' fontWeight='normal' color='#159957'>
         Quarter IV Cloud-Native Computing Specialization
       </Heading> 
-      <Heading id="cn-351-certified-kubernetes-application-developer(ckad)" as='h2' fontSize='1.5em' mt='1rem' mb='1rem' fontWeight='normal' color='#159957'>
+      <Heading id='cn-351-certified-kubernetes-application-developer(ckad)' as='h2' fontSize='1.5em' mt='1rem' mb='1rem' fontWeight='normal' color='#159957'>
        CN-351: Certified Kubernetes Application Developer (CKAD)
       </Heading>  
       
@@ -38,14 +38,14 @@ const CNCCS_Quarter_IV = () => {
       <Text as='p' mt='0.8em' color='#606C71'> Course Outline: </Text>
 
       <Text as='p' mt='0.8em' color='#606C71'> Kubernetes: Up and Running: Dive into the Future of Infrastructure 3rd Edition </Text>
-      <Text as='p' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+      <Text as='p' color='#1e6bb8' bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
         <Link href='https://www.amazon.com/Kubernetes-Running-Dive-Future-Infrastructure/dp/109811020X/ref=sr_1_3'  target='_blank'>
           https://www.amazon.com/Kubernetes-Running-Dive-Future-Infrastructure/dp/109811020X/ref=sr_1_3 
         </Link>
       </Text>
 
       <Text as='p' mt='0.8em' color='#606C71'> Cloud Development Kit for Kubernetes </Text>
-      <Text as='p' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+      <Text as='p' color='#1e6bb8' bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
        <Link href='https://cdk8s.io/'  target='_blank'>  https://cdk8s.io/  </Link>
       </Text>
     </>

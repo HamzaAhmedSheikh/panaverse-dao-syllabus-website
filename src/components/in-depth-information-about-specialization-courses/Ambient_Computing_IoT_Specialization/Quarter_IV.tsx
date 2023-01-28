@@ -1,13 +1,13 @@
-import { Text, Heading } from "@chakra-ui/react";
-import Link from "next/link";
+import { Text, Heading } from '@chakra-ui/react';
+import Link from 'next/link';
 
 const Quarter_IV_IoT = () => {
   return (
     <>
-     <Heading id="quarter-iv-ambient-computing-and-iot-specialization" as='h2' fontSize='1.5em' mt='1rem' mb='1rem' fontWeight='normal' color='#159957'> 
+     <Heading id='quarter-iv-ambient-computing-and-iot-specialization' as='h2' fontSize='1.5em' mt='1rem' mb='1rem' fontWeight='normal' color='#159957'> 
        Quarter IV Ambient Computing and IoT Specialization
      </Heading> 
-     <Heading id="ac-351-ambient-computing-with-voice-assistants-and-matter-devices" as='h2' fontSize='1.5em' mt='1rem' mb='1rem' fontWeight='normal' color='#159957'>
+     <Heading id='ac-351-ambient-computing-with-voice-assistants-and-matter-devices' as='h2' fontSize='1.5em' mt='1rem' mb='1rem' fontWeight='normal' color='#159957'>
       AC-351: Ambient Computing with Voice Assistants and Matter Devices
      </Heading>  
 
@@ -50,20 +50,20 @@ const Quarter_IV_IoT = () => {
      <Text as='p' mt='0.8em' color='#606C71'> Course Outline: </Text>
 
      <Text as='p' mt='0.8em' color='#606C71'> Alexa Skill Developement  </Text>
-     <Text as='p' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+     <Text as='p' color='#1e6bb8' bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
        <Link href='https://developer.amazon.com/en-US/alexa'  target='_blank'>
          https://developer.amazon.com/en-US/alexa
        </Link>
      </Text>
 
      <Text as='p' mt='0.8em' color='#606C71'> Alexa with Matter Protocol  </Text>
-     <Text as='p' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+     <Text as='p' color='#1e6bb8' bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
        <Link href='https://developer.amazon.com/en-US/alexa/matter'  target='_blank'>
         https://developer.amazon.com/en-US/alexa/matter
        </Link>
      </Text>
 
-     <Text as='p' mt='0.4em' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+     <Text as='p' mt='0.4em' color='#1e6bb8' bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
        <Link href='https://developer.amazon.com/en-US/blogs/alexa/device-makers/2022/07/alexa-live-2022-ack-sdk-matter.html'  target='_blank'>
         https://developer.amazon.com/en-US/blogs/alexa/device-makers/2022/07/alexa-live-2022-ack-sdk-matter.html
        </Link>
