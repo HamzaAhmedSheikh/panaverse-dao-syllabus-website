@@ -36,6 +36,10 @@
   .projectTagline {
     font-size: 1.15rem;
   }
+  
+  .list {
+    list-style-type: none !important;
+  }
 }
 
 @media screen and (max-width: 42em) {
@@ -54,6 +58,10 @@
   
   .projectTagline {
     font-size: 1rem;
+  }
+
+  .list {
+    list-style-type: none !important;
   }
 
 }
