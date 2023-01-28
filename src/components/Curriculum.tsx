@@ -13,8 +13,12 @@ import Quarter_V_IoT from "./in-depth-information-about-specialization-courses/A
 
 import CNCCS_Quarter_IV from "./in-depth-information-about-specialization-courses/Cloud_Native_Computing_Specialization/Quarter_IV";
 import CNCCS_Quarter_V from "./in-depth-information-about-specialization-courses/Cloud_Native_Computing_Specialization/Quarter_V";
+
 import Quarter_IV_GBS from "./in-depth-information-about-specialization-courses/Genomics_and_Bioinformatics_Specialization/Quarter_IV";
 import Quarter_V_GBS from "./in-depth-information-about-specialization-courses/Genomics_and_Bioinformatics_Specialization/Quarter_V";
+
+import Quarter_IV_NPAS from "./in-depth-information-about-specialization-courses/Network_Programmability_and_Automation_Specialization/Quarter_IV";
+import Quarter_V_NPAS from "./in-depth-information-about-specialization-courses/Network_Programmability_and_Automation_Specialization/Quarter_V";
 
 import Section_I from "./in-depth-information-about-specialization-courses/Web_3_and_Metaverse_Specialization/Section_I";
 import Section_II from "./in-depth-information-about-specialization-courses/Web_3_and_Metaverse_Specialization/Section_II";
@@ -81,6 +85,8 @@ const Curriculum = () => {
       <Quarter_V_GBS />
 
       {/*** Network Programmability and Automation Specialization ***/}
+      <Quarter_IV_NPAS />
+      <Quarter_V_NPAS />
 
     </>
   )
