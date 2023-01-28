@@ -3,6 +3,8 @@ import Quarter_1 from "./detailed_course_syllabus/Quarter-1/Quarter_1";
 import Section_1 from "./detailed_course_syllabus/Quarter-1/Section_1";
 import Quarter_II from "./detailed_course_syllabus/Quarter-2/Quarter_II";
 import Quarter_III from "./detailed_course_syllabus/Quarter-3/Quarter_III";
+import Quarter_IV from "./in-depth-information-about-specialization-courses/AI_and_Deep_Learning_Specialization/Quarter_IV";
+import Quarter_V from "./in-depth-information-about-specialization-courses/AI_and_Deep_Learning_Specialization/Quarter_V";
 import Section_I from "./in-depth-information-about-specialization-courses/Web_3_and_Metaverse_Specialization/Section_I";
 import Section_II from "./in-depth-information-about-specialization-courses/Web_3_and_Metaverse_Specialization/Section_II";
 import Outcome from "./Outcome";
@@ -48,6 +50,13 @@ const Curriculum = () => {
      {/******* Web-3-and-Metaverse-Specialization *********** */}
       <Section_I /> 
       <Section_II /> 
+
+     {/*** Artificial Intelligence (AI) and Deep Learning Specialization ***/} 
+       <Quarter_IV />
+       <Quarter_V />
+  
+
+
     </>
   )
 }
