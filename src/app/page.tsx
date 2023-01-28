@@ -1,16 +1,13 @@
 "use client"
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
-// import styles from './page.module.css'
-import Header from '../components/Header';
 
-const inter = Inter({ subsets: ['latin'] })
+import Header from '../components/Header';
+import Intro from '@/components/Intro';
 
 export default function Home() {
   return (
     <>
-     <Header />      
-     <h1> hello world </h1>
+     <Header />     
+     <Intro /> 
     </>
   )
 }

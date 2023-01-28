@@ -1,16 +1,30 @@
 @media screen and (min-width: 64em) {
+  .mainContent {
+    max-width: 64em;
+    padding: 2rem 6rem;
+    margin: 0 auto;
+    font-size: 1.1rem;    
+  }
+
   .pageHeader {      
     padding: 5rem 6rem;
-  }    
+  }  
+
   .projectName {
     font-size: 3.25rem;
   }
+
   .projectTagline {
     font-size: 1.11rem;
   }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
+  .mainContent {
+    padding: 2rem 4rem;    
+    font-size: 1.1rem; 
+  }  
+
   .pageHeader {
     padding: 3rem 4rem;
   }
@@ -21,13 +35,18 @@
  
   .projectTagline {
     font-size: 1.15rem;
-  }  
+  }
 }
 
 @media screen and (max-width: 42em) {
+  .mainContent {
+    padding: 2rem 1rem;
+    font-size: 1rem;
+  }
+
   .pageHeader {
     padding: 2rem 1rem;   
-  }  
+  }
   
   .projectName {
     font-size: 1.75rem;
@@ -35,5 +54,6 @@
   
   .projectTagline {
     font-size: 1rem;
-  }  
+  }
+
 }
