@@ -1,18 +1,27 @@
 import { Text, Heading } from "@chakra-ui/react";
 import Quarter_1 from "./detailed_course_syllabus/Quarter-1/Quarter_1";
 import Section_1 from "./detailed_course_syllabus/Quarter-1/Section_1";
+
 import Quarter_II from "./detailed_course_syllabus/Quarter-2/Quarter_II";
 import Quarter_III from "./detailed_course_syllabus/Quarter-3/Quarter_III";
+
 import Quarter_IV from "./in-depth-information-about-specialization-courses/AI_and_Deep_Learning_Specialization/Quarter_IV";
 import Quarter_V from "./in-depth-information-about-specialization-courses/AI_and_Deep_Learning_Specialization/Quarter_V";
+
 import Quarter_IV_IoT from "./in-depth-information-about-specialization-courses/Ambient_Computing_and_IoT_Specialization/Quarter_IV";
 import Quarter_V_IoT from "./in-depth-information-about-specialization-courses/Ambient_Computing_and_IoT_Specialization/Quarter_V";
+
 import CNCCS_Quarter_IV from "./in-depth-information-about-specialization-courses/Cloud_Native_Computing_Specialization/Quarter_IV";
 import CNCCS_Quarter_V from "./in-depth-information-about-specialization-courses/Cloud_Native_Computing_Specialization/Quarter_V";
+import Quarter_IV_GBS from "./in-depth-information-about-specialization-courses/Genomics_and_Bioinformatics_Specialization/Quarter_IV";
+import Quarter_V_GBS from "./in-depth-information-about-specialization-courses/Genomics_and_Bioinformatics_Specialization/Quarter_V";
+
 import Section_I from "./in-depth-information-about-specialization-courses/Web_3_and_Metaverse_Specialization/Section_I";
 import Section_II from "./in-depth-information-about-specialization-courses/Web_3_and_Metaverse_Specialization/Section_II";
+
 import Outcome from "./Outcome";
 import Relevant_Information_Links from "./Relevant_Information_Links";
+
 import SpecializedTracks from "./Specialized-Tracks";
 
 const Curriculum = () => {
@@ -56,16 +65,23 @@ const Curriculum = () => {
       <Section_II /> 
 
      {/*** Artificial Intelligence (AI) and Deep Learning Specialization  ***/} 
-       <Quarter_IV />
-       <Quarter_V />
+      <Quarter_IV />
+      <Quarter_V />
   
      {/*** Cloud-Native Computing Specialization  ***/}   
-       <CNCCS_Quarter_IV /> 
-       <CNCCS_Quarter_V />
+      <CNCCS_Quarter_IV /> 
+      <CNCCS_Quarter_V />
 
       {/***Ambient Computing and IoT Specialization ****/}
        <Quarter_IV_IoT />
        <Quarter_V_IoT />  
+
+      {/*** Genomics and Bioinformatics Specialization ***/} 
+      <Quarter_IV_GBS />
+      <Quarter_V_GBS />
+
+      {/*** Network Programmability and Automation Specialization ***/}
+
     </>
   )
 }
