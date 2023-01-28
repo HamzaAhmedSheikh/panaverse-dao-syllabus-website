@@ -16,11 +16,12 @@ const Quarter_IV_GBS = () => {
       <Text as='p' mt='0.6em' color='#606C71'> This course will focus on learning the basics of the Python programming language through genomics examples </Text>    
 
       <Text as='p' mt='0.8em' fontWeight='semibold 'color='#606C71'>
-       Textbook:
-       <Text as='p' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
-         <Link href='https://www.pythonforbiologists.org/' target='_blank'>  https://www.pythonforbiologists.org/ </Link> 
-       </Text>  
-      </Text>  
+        Textbook:      
+     </Text>  
+     <Text as='p' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+        <Link href='https://www.pythonforbiologists.org/' target='_blank'>  https://www.pythonforbiologists.org/ </Link> 
+     </Text>  
+
     </>
   )
 }

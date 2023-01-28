@@ -13,10 +13,10 @@ const Quarter_V_GBS = () => {
      <Text as='p' mt='0.8em' color='#606C71'> In this course we will discover modern, next-generation sequencing libraries from the powerful Python ecosystem to perform cutting-edge research and analyze large amounts of biological data. </Text>
 
      <Text as='p' mt='0.8em' fontWeight='semibold 'color='#606C71'>
-       Textbook: 
-       <Text as='p' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+       Textbook:        
+     </Text>  
+     <Text as='p' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
          <Link href='https://www.amazon.com/Bioinformatics-Python-Cookbook-applications-computational/dp/1803236426/ref=sr_1_' target='_blank'>  https://www.amazon.com/Bioinformatics-Python-Cookbook-applications-computational/dp/1803236426/ref=sr_1_ </Link> 
-       </Text>  
      </Text>  
     </>
   )

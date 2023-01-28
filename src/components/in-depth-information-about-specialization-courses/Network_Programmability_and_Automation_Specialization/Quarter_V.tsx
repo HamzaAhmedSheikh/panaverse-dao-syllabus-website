@@ -14,7 +14,7 @@ const Quarter_V_NPAS = () => {
      
      <Text as='p' mt='0.8em' fontWeight='semibold 'color='#606C71'> Textbook: </Text> 
      <Text as='p' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
-         <Link href='https://www.amazon.com/Network-Programmability-Automation-Networking-Technology/dp/1587145146/ref=sr_1_3' target='_blank'> https://www.amazon.com/Network-Programmability-Automation-Networking-Technology/dp/1587145146/ref=sr_1_3 </Link> 
+        <Link href='https://www.amazon.com/Network-Programmability-Automation-Networking-Technology/dp/1587145146/ref=sr_1_3' target='_blank'> https://www.amazon.com/Network-Programmability-Automation-Networking-Technology/dp/1587145146/ref=sr_1_3 </Link> 
      </Text>
     </>
   )

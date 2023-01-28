@@ -98,7 +98,7 @@ const Section_1 = () => {
         (Chapter 2 of JavaScript from Beginner to Professional)
       </Text>
  
-      <List display='list-item' styleType='decimal'>
+      <List as='ol' className={styles.list} display='list-item' styleType='decimal'>
         <ListItem color='#606C71'>
           Intro to Node.js, .mjs files, Modules, NPM, import, export, and using
           external modules with npm:
