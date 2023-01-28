@@ -1,7 +1,10 @@
 import { Text, Heading } from "@chakra-ui/react";
 import Quarter_1 from "./detailed_course_syllabus/Quarter-1/Quarter_1";
+import Section_1 from "./detailed_course_syllabus/Quarter-1/Section_1";
 import Quarter_II from "./detailed_course_syllabus/Quarter-2/Quarter_II";
 import Quarter_III from "./detailed_course_syllabus/Quarter-3/Quarter_III";
+import Section_I from "./in-depth-information-about-specialization-courses/Web_3_and_Metaverse_Specialization/Section_I";
+import Section_II from "./in-depth-information-about-specialization-courses/Web_3_and_Metaverse_Specialization/Section_II";
 import Outcome from "./Outcome";
 import Relevant_Information_Links from "./Relevant_Information_Links";
 import SpecializedTracks from "./Specialized-Tracks";
@@ -38,7 +41,13 @@ const Curriculum = () => {
      <Relevant_Information_Links /> 
      <Quarter_1 />  
      <Quarter_II /> 
-     <Quarter_III />  
+     <Quarter_III />
+
+     {/***** in-depth-information-about-specialization-courses components  */}
+     
+     {/******* Web-3-and-Metaverse-Specialization *********** */}
+      <Section_I /> 
+      <Section_II /> 
     </>
   )
 }
