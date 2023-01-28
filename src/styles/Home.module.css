@@ -3,7 +3,7 @@
     max-width: 64em;
     padding: 2rem 6rem;
     margin: 0 auto;
-    font-size: 1.1rem;    
+    font-size: 1.25rem;    
   }
 
   .pageHeader {      
@@ -22,7 +22,7 @@
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .mainContent {
     padding: 2rem 4rem;    
-    font-size: 1.1rem; 
+    font-size: 1.15rem; 
   }  
 
   .pageHeader {
@@ -37,9 +37,6 @@
     font-size: 1.15rem;
   }
   
-  /* .list {
-    list-style-type: none !important;
-  } */
 }
 
 @media screen and (max-width: 42em) {

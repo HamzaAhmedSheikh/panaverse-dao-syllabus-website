@@ -1,11 +1,11 @@
 import { Text, Heading } from "@chakra-ui/react";
 import Link from "next/link";
-import Ambient_Computing_IOT from "./specializations/AC&IOT";
-import AI_Deep_Learning from "./specializations/AI&Deep_Learning";
+import Ambient_Computing_IOT from "./specializations/Ambient_Computing_IoT_Specialization";
+import AI_Deep_Learning from "./specializations/AI_Deep_Learning Specialization";
 import CNCC from "./specializations/CNCC";
-import Genomics_and_Bioinformatics from "./specializations/Genomics_and_Bioinformatics";
-import Network_Programmability_and_Automation from "./specializations/Network_Programmability_and_Automation";
-import WEB3_Metaverse from "./specializations/WEB3&Metaverse";
+import Genomics_and_Bioinformatics from "./specializations/Genomics_Bioinformatics";
+import Network_Programmability_and_Automation from "./specializations/Network_Programmability_Automation";
+import WEB3_Metaverse from "./specializations/Web_3_Blockchain_Metaverse_Specialization";
 
 const SpecializedTracks = () => {
   return (
