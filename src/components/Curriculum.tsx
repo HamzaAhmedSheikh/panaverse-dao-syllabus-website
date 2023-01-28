@@ -1,5 +1,7 @@
 import { Text, Heading } from "@chakra-ui/react";
 import Quarter_1 from "./detailed_course_syllabus/Quarter-1/Quarter_1";
+import Quarter_II from "./detailed_course_syllabus/Quarter-2/Quarter_II";
+import Quarter_III from "./detailed_course_syllabus/Quarter-3/Quarter_III";
 import Outcome from "./Outcome";
 import Relevant_Information_Links from "./Relevant_Information_Links";
 import SpecializedTracks from "./Specialized-Tracks";
@@ -34,7 +36,9 @@ const Curriculum = () => {
      <SpecializedTracks />
      <Outcome />
      <Relevant_Information_Links /> 
-     <Quarter_1 />     
+     <Quarter_1 />  
+     <Quarter_II /> 
+     <Quarter_III />  
     </>
   )
 }

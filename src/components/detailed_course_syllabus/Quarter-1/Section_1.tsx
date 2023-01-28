@@ -116,10 +116,10 @@ const Section_1 = () => {
               https://docs.google.com/presentation/d/1eOLJTN0FyVAw6lMUvA_XYLORKnudWXyzXsB6sg5oPIs/edit?usp=sharing{" "}
             </Link>
           </Text>          
-          How to accept user input in your Node.js JavaScript programs, this
-          will allow us to create interactive Node.js console programs using
-          prompt-sync library. The last example in this presentation shows you
-          how to use prompt-sync library in your Node.js programs:
+           How to accept user input in your Node.js JavaScript programs, this
+           will allow us to create interactive Node.js console programs using
+           prompt-sync library. The last example in this presentation shows you
+           how to use prompt-sync library in your Node.js programs:
           <Text
             as="p"
             color="#1e6bb8"

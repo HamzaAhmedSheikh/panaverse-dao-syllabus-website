@@ -52,9 +52,8 @@ const VC_with_Git = () => {
         <Link
           href="https://help.github.com/articles/markdown-basics/"
           target="_blank"
-        >
-          {" "}
-          https://help.github.com/articles/markdown-basics/{" "}
+        >          
+          https://help.github.com/articles/markdown-basics/
         </Link>
       </Text>
 
@@ -69,9 +68,8 @@ const VC_with_Git = () => {
         <Link
           href="http://stackoverflow.com/questions/5009600/difference-between-fork-and-branch-on-github"
           target="_blank"
-        >
-          {" "}
-          http://stackoverflow.com/questions/5009600/difference-between-fork-and-branch-on-github{" "}
+        >          
+          http://stackoverflow.com/questions/5009600/difference-between-fork-and-branch-on-github
         </Link>
       </Text>
 
@@ -86,9 +84,8 @@ const VC_with_Git = () => {
         <Link
           href="http://stackoverflow.com/questions/3329943/git-branch-fork-fetch-merge-rebase-and-clone-what-are-the-differences"
           target="_blank"
-        >
-          {" "}
-          http://stackoverflow.com/questions/3329943/git-branch-fork-fetch-merge-rebase-and-clone-what-are-the-differences{" "}
+        >          
+          http://stackoverflow.com/questions/3329943/git-branch-fork-fetch-merge-rebase-and-clone-what-are-the-differences
         </Link>
       </Text>
 

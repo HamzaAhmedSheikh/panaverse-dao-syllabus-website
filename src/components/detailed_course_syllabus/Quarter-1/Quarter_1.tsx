@@ -194,7 +194,7 @@ const Quarter_1 = () => {
      <Text as='p' mt='0.7em' color='#606C71'> Fundamentals of TypeScript Quiz </Text> 
      <Text as='p' mt='0.7em' color='#606C71'> TypeScript Professional Proficiency Quiz </Text>
 
-     {/************  Fundamentals of Version Control with Git (Recorded Videos) **********/}
+     {/************ Fundamentals of Version Control with Git (Recorded Videos) **********/}
 
      <VC_with_Git />
     </>

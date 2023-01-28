@@ -68,15 +68,16 @@ const OOP_with_Typescript = () => {
         </Link>
       </Text>
 
+      <Text as='p' mt="0.8em" color='#606C71'> Home Project: </Text>
+
       <Text
         as="p"
-        mt="0.8em"
+        mt="0.4em"
         color="#1e6bb8"
         bgColor="transparent"
         fontWeight="normal"
         _hover={{ cursor: "pointer", textDecoration: "underline" }}
-      >
-        <strong> Homework Project: </strong>
+      >        
         <Link
           href="https://github.com/panaverse/typescript-node-projects"
           target="_blank"
