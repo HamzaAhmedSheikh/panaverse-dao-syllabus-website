@@ -17,13 +17,13 @@ const WEB3_Metaverse = () => {
 
      <Text as='p' mt='1em' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
         <Link href="#">
-          Quarter III W3-351: Developing Smart Contracts and Planet-Scale Web 3.0 Dapps 
+          Quarter IV W3-351: Developing Smart Contracts and Planet-Scale Web 3.0 Dapps 
         </Link>
      </Text>
 
      <Text as='p' mt='1em' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
         <Link href="#">
-        Quarter IV MV-361: Developing Planet-Scale Open Virtual and Augmented Metaverse Experiences 
+         Quarter V MV-361: Developing Planet-Scale Open Virtual and Augmented Metaverse Experiences 
         </Link>
      </Text>
     </>

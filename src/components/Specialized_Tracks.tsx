@@ -30,6 +30,12 @@ const SpecializedTracks = () => {
         </Link>
      </Text>
 
+     <Text as='p' mt='1em' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
+        <Link href="https://github.com/panaverse/panaverse.github.io#web-3-and-metaverse-specialization" target='_blank'> 
+          Quarter III (Core) $-101: Dollar Making Bootcamp - Full-Stack Template and API Product Development
+        </Link>
+     </Text>
+
      <Heading id="specialized-tracks" as='h2' fontSize='1.5em' mt='1rem' mb='1rem' fontWeight='normal' color='#159957'>
         Specialized Tracks
      </Heading>

@@ -15,13 +15,13 @@ const CNCC = () => {
 
      <Text as='p' mt='1em' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
         <Link href="#">
-         Quarter III CN-351: Certified Kubernetes Application Developer (CKAD)
+         Quarter IV CN-351: Certified Kubernetes Application Developer (CKAD)
         </Link>
      </Text>
 
      <Text as='p' mt='1em' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
         <Link href="#">
-         Quarter IV CN-361: Developing Multi-Cloud APIs using CDK for Terraform
+         Quarter V CN-361: Developing Multi-Cloud APIs using CDK for Terraform
         </Link>
      </Text>
     </>

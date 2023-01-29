@@ -15,13 +15,13 @@ const AI_Deep_Learning = () => {
 
      <Text as='p' mt='1em' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
         <Link href="#">
-         Quarter III AI-351: Developing Planet-Scale Intelligent APIs and Python Programming
+         Quarter IV AI-351: Developing Planet-Scale Intelligent APIs and Python Programming
         </Link>
      </Text>
 
      <Text as='p' mt='1em' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
         <Link href="#">
-          Quarter IV AI-361: Deep Learning and MLOps
+          Quarter V AI-361: Deep Learning and MLOps
         </Link>
      </Text>
     </>

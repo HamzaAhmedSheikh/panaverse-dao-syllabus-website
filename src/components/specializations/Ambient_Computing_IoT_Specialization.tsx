@@ -15,13 +15,13 @@ const Ambient_Computing_IOT = () => {
 
      <Text as='p' mt='1em' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
         <Link href="#">
-         Quarter III AC-351: Ambient Computing with Voice Assistants and Matter Devices
+         Quarter IV AC-351: Ambient Computing with Voice Assistants and Matter Devices
         </Link>
      </Text>
 
      <Text as='p' mt='1em' color="#1e6bb8" bgColor='transparent' fontWeight='normal' _hover={{ cursor: 'pointer', textDecoration: 'underline' }}>
         <Link href="#">
-         Quarter IV AC-361: Embedded Programming using C and Rust
+         Quarter V AC-361: Embedded Programming using C and Rust
         </Link>
      </Text>
     </>
